@@ -1,6 +1,6 @@
 ### Installing
 
-We offer binary images of the latest releases here: 
+We offer binary images of the latest releases [here](https://github.com/Woolong-coin/woolong-coin/releases): 
 
 If you would like to compile yourself, read on.
 
