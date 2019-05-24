@@ -98,30 +98,6 @@ The binaries will be in the `src` folder when you are complete.
 - `cd src`
 - `./Woolongd --version`
 
-#### OSX/Apple, using GCC
-
-##### Prerequisites
-
-- Install XCode and Developer Tools.
-
-##### Building
-
-- `which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- `brew install --force cmake boost llvm gcc@8 openssl`
-- `export CC=gcc-8`
-- `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/Woolong-coin/woolong-coin`
-- `cd woolong-coin`
-- `mkdir build`
-- `cd build`
-- `cmake ..`
-- `make`
-
-The binaries will be in the `src` folder when you are complete.
-
-- `cd src`
-- `./Woolongd --version`
-
 #### OSX/Apple, using Clang
 
 ##### Prerequisites
