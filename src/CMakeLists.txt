@@ -179,13 +179,13 @@ add_dependencies(zedwallet version)
 set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "Woolongd")
 set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "zedwallet")
 set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "zedwallet-beta")
-set_property(TARGET WalletService PROPERTY OUTPUT_NAME "turtle-service")
+set_property(TARGET WalletService PROPERTY OUTPUT_NAME "woolong-service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "miner")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "cryptotest")
 set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "wallet-api")
 
 # Additional make targets, can be used to build a subset of the targets
-# e.g. make pool will build only Woolongd and service
-add_custom_target(pool DEPENDS Woolongd WalletService)
-add_custom_target(solominer DEPENDS Woolongd zedwallet miner)
-add_custom_target(cli DEPENDS Woolongd zedwallet)
+# e.g. make pool will build only TurtleCoind and service
+add_custom_target(pool DEPENDS TurtleCoind WalletService)
+add_custom_target(solominer DEPENDS TurtleCoind zedwallet miner)
+add_custom_target(cli DEPENDS TurtleCoind zedwallet)
