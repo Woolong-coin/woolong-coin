@@ -43,7 +43,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./Woolongd --version`
+- `./Woolongd`
 
 ##### Ubuntu, using Clang
 
@@ -77,7 +77,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./Woolongd --version`
+- `./Woolongd`
 
 ##### Generic Linux
 
@@ -96,7 +96,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./Woolongd --version`
+- `./Woolongd`
 
 #### OSX/Apple, using Clang
 
@@ -120,7 +120,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./Woolongd --version`
+- `./Woolongd`
 
 
 #### Windows
@@ -147,7 +147,7 @@ For 64-bit:
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
 - `cmake -G "Visual Studio 15 2017 Win64" .. -DBOOST_ROOT=C:/local/boost_1_68_0`
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /m`
+- `MSBuild Woolong.sln /p:Configuration=Release /m`
 
 For 32-bit:
 - From the start menu, open 'x86 Native Tools Command Prompt for vs2017'.
@@ -156,13 +156,13 @@ For 32-bit:
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
 - `cmake -G "Visual Studio 15 2017" .. -DBOOST_ROOT=C:/local/boost_1_68_0`
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /p:Platform=Win32 /m`
+- `MSBuild Woolong.sln /p:Configuration=Release /p:Platform=Win32 /m`
 
 The binaries will be in the `src/Release` folder when you are complete.
 
 - `cd src`
 - `cd Release`
-- `Woolong.exe --version`
+- `Woolong.exe`
 
 #### Thanks
 Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community, Woolong Community.
