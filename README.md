@@ -1,6 +1,8 @@
+# Woolong Coin (WOO)
+
 ### Installing
 
-We offer binary images of the latest releases [here](https://github.com/Woolong-coin/woolong-coin/releases): 
+We offer binary images of the latest releases [here](https://github.com/Woolong-coin/woolong-coin/releases/latest): 
 
 If you would like to compile yourself, read on.
 
