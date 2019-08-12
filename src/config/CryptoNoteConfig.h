@@ -158,7 +158,7 @@ const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
 const uint32_t UPGRADE_HEIGHT_V2                             = 1;
 const uint32_t UPGRADE_HEIGHT_V3                             = 2;
-const uint32_t UPGRADE_HEIGHT_V4                             = 50050; // Upgrade height for CN-Lite Variant 1 switch. Changed from 350000
+const uint32_t UPGRADE_HEIGHT_V4                             = 50000; // Upgrade height for CN-Lite Variant 1 switch. Changed from 350000
 const uint32_t UPGRADE_HEIGHT_V5                             = 250000; // Upgrade height for CN-Turtle Variant 2 switch.
 const uint32_t UPGRADE_HEIGHT_CURRENT                        = UPGRADE_HEIGHT_V5;
 
@@ -169,12 +169,7 @@ static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "
 static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
 /* Block heights we are going to have hard forks at */
-const uint64_t FORK_HEIGHTS[] = {
-  500000,  // 0
-  1000000, // 1
-  1500000, // 2
-  2000000,
-};
+const uint64_t FORK_HEIGHTS[] = {};
 
 /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
 const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX                 = 0;
