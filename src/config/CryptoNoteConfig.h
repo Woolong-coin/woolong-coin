@@ -256,7 +256,7 @@ const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
 const char     LATEST_VERSION_URL[]                          = "http://github.com/Woolong-coin/woolong-coin";
-const std::string LICENSE_URL                                = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+const std::string LICENSE_URL                                = "https://github.com/Woolong-coin/woolong-coin/blob/master/LICENSE";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xb8, 0xac, 0xc4, 0x00, 0xfa, 0x2d, 0x44, 0x25, 0xcf, 0xcc, 0xef, 0x10, 0xbb, 0x38, 0xd2, 0xf1  }
