@@ -168,8 +168,13 @@ const uint32_t UPGRADE_WINDOW                                = EXPECTED_NUMBER_O
 static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "Bad UPGRADE_VOTING_THRESHOLD");
 static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
-/* Block heights we are going to have hard forks at */
-const uint64_t FORK_HEIGHTS[] = {};
+/* Block heights we are going to have hard forks at. Subject to change */
+const uint64_t FORK_HEIGHTS[] = {
+  500000,
+  1000000,
+  1500000,
+  2000000,  
+};
 
 /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
 const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX                 = 0;
